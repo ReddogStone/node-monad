@@ -1,0 +1,23 @@
+{
+	"name": "node-monad",
+	"description": "Generic implementation of monads using harmony generators. Also contains some common specific monads.",
+	"url": "http://github.com/ReddogStone/node-monad",
+	"keywords": [
+		"monad",
+		"generator",
+		"yield",
+		"continuation",
+		"maybe",
+		"state"
+	],
+	"author": "Elshad Shirinov <shirinov.elshad@gmail.com>",
+	"version": "0.0.1",
+	"license": "MIT",
+	"engines": {
+		"node": ">= 0.12"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/ReddogStone/node-monad"
+	}
+}
