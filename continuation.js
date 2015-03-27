@@ -1,4 +1,4 @@
-var monad = require('./index');
+var monad = require('./monad');
 
 function isContinuation(obj) {
 	return (typeof obj === 'function');

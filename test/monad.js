@@ -1,6 +1,6 @@
 describe('Monad', function() {
 	var assert = require('assert');
-	var monad = require('../index.js');
+	var monad = require('../monad.js');
 
 	describe('creates an identity monad, which', function() {
 		var identity = monad(function unit(error, value) {
