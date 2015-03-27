@@ -4,7 +4,7 @@ Monad do-notation for Node.js using harmony generators.
 Here an example of a maybe monad:
 
 ```javascript
-var monad = require('node-monad');
+var monad = require('node-monad').monad;
 
 var NOTHING = {};
 var maybe = monad(function unit(error, value) {
